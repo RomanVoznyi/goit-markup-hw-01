@@ -1,63 +1,190 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio v.1</title>
   </head>
   <body>
-    <header>
-      <a href="/">Web Studio</a>
-      <ul>
-        <li><a href="studia.html">Студия</a></li>
-        <li><a href="portfolio.html">Портфолио</a></li>
-        <li><a href="contacts.html">Контакты</a></li>
-      </ul>
-      <img src="./img/envelope.png" alt="envelope" />
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <img src="./img/phone.png" alt="phone" />
-      <a href="tel:+380961111111">+38 096 111 11 11</a>
+    <!--Шапка документа-->
+    <header class="header-box">
+      <nav>
+        <a class="logo" href="./index.html" lang="en"
+          ><span class="first-logo">Web</span> Studio</a
+        >
+        <ul>
+          <li class="pages"><a href="./job.html">Студия</a></li>
+          <li class="pages"><a href="./portfolio.html">Портфолио</a></li>
+          <li class="pages"><a href="./contacts.html">Контакты</a></li>
+        </ul>
+        <ul>
+          <li>
+            <a class="img-mail-head" href="" aria-label="envelope"></a>
+            <a class="mail-head" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="img-phone-head" href="" aria-label="phone"></a>
+            <a class="phone-head" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    <section>
-      <h1>эффективные решения для вашего бизнеса</h1>
-      <a href="/">Заказать услугу</a>
-    </section>
-    <section>
-      <h2>advantages</h2>
-      <ul>
-        <li>
-          <img src="" alt="" />
-          <h3>Внимание к деталям</h3>
-          <p>
-            Идейные соображения, а также начало повседневной работы по
-            формированию позиции.
-          </p>
-        </li>
-        <li>
-          <img src="" alt="" />
-          <h3>Пунктуальность</h3>
-          <p>
-            Задача организации, в особенности же рамки и место обучения кадров
-            влечет за собой.
-          </p>
-        </li>
-        <li>
-          <img src="" alt="" />
-          <h3>Планирование</h3>
-          <p>
-            Равным образом консультация с широким активом в значительной степени
-            обуславливает.
-          </p>
-        </li>
-        <li>
-          <img src="" alt="" />
-          <h3>Современные технологии</h3>
-          <p>
-            Значимость этих проблем настолько очевидна, что реализация плановых
-            заданий.
-          </p>
-        </li>
-      </ul>
-    </section>
+
+    <!--основной доуцмент-->
+    <main>
+      <!--Главная секция-->
+      <section>
+        <h1>
+          эффективные решения <br />
+          для вашего бизнеса
+        </h1>
+        <a class="hero-button" href="./job.html">Заказать услугу</a>
+      </section>
+
+      <!--Секция Преимущества-->
+      <section>
+        <h2>Преимущества</h2>
+        <ul>
+          <li>
+            <img src="" alt="ico-antena" aria-label="ico-antena" />
+            <h3>Внимание к деталям</h3>
+            <p>
+              Идейные соображения, а также начало повседневной работы по
+              формированию позиции.
+            </p>
+          </li>
+          <li>
+            <img src="" alt="ico-antena" aria-label="ico-antena" />
+            <h3>Пунктуальность</h3>
+            <p>
+              Задача организации, в особенности же рамки и место обучения кадров
+              влечет за собой.
+            </p>
+          </li>
+          <li>
+            <img src="" alt="" />
+            <h3>Планирование</h3>
+            <p>
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
+          </li>
+          <li>
+            <img src="" alt="" />
+            <h3>Современные технологии</h3>
+            <p>
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <!--Секция Наша деятельность-->
+      <section>
+        <h2>Чем мы занимаемся</h2>
+        <ul>
+          <li>
+            <a href="">
+              <img src="" alt="" width="380" height="294" />
+              <h3>Десктопные приложения</h3>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="" alt="" width="380" height="294" />
+              <h3>Мобильные приложения</h3>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="" alt="" width="380" height="294" />
+              <h3>Дизайнерские решения</h3>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <!--Секция Наша команда-->
+      <section>
+        <h2>Наша команда</h2>
+        <ul>
+          <li>
+            <img src="" alt="" width="278" height="260" />
+            <h3>John Smith</h3>
+            <p>Product Designer</p>
+            <ul>
+              <li>Instagramm</li>
+              <li>Twitter</li>
+              <li>Facebook</li>
+              <li>LinkedIn</li>
+            </ul>
+          </li>
+          <li>
+            <img src="" alt="" width="278" height="260" />
+            <h3>Marta Stewart</h3>
+            <p>Frontend Developer</p>
+            <ul>
+              <li>Instagramm</li>
+              <li>Twitter</li>
+              <li>Facebook</li>
+              <li>LinkedIn</li>
+            </ul>
+          </li>
+          <li>
+            <img src="" alt="" width="278" height="260" />
+            <h3>Robert Jakis</h3>
+            <p>Marketing</p>
+            <ul>
+              <li>Instagramm</li>
+              <li>Twitter</li>
+              <li>Facebook</li>
+              <li>LinkedIn</li>
+            </ul>
+          </li>
+          <li>
+            <img src="" alt="" width="278" height="260" />
+            <h3>Martin Doe</h3>
+            <p>UI Designer</p>
+            <ul>
+              <li>Instagramm</li>
+              <li>Twitter</li>
+              <li>Facebook</li>
+              <li>LinkedIn</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <!--Секция Клиенты-->
+      <section>
+        <h2>Постоянные клиенты</h2>
+        <ul>
+          <li>
+            <a href=""><img src="" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="" alt="" /></a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!--Футер-->
+    <footer></footer>
   </body>
 </html>
